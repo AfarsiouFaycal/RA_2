@@ -12,7 +12,7 @@ To compile and run this program, you need:
   - `matplotlib`
 '''
 
-### Running Ball Allocation Simulation
+## Running Ball Allocation Simulation
 
 To simulate the allocation of balls into bins and compute the load gap, use the `simulate_ball_allocation` function. Below is an example setup for running the simulation with `10` bins and `100` balls:
 
@@ -27,7 +27,7 @@ average_gap, std_dev_gap = simulate_ball_allocation(m, n, T, strategy=strategy)
 print("Average Gap:", average_gap)
 print("Standard Deviation of Gap:", std_dev_gap)
 '''
-### Exploring Different Strategies and Parameters
+## Exploring Different Strategies and Parameters
 
 The `run_allocation_experiments` function lets you run experiments on various allocation strategies, numbers of bins, and numbers of balls. You can specify multiple values for `m`, `n`, and other parameters to see how they impact the load gap.
 
